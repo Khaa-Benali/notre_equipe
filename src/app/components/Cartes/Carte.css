@@ -1,0 +1,65 @@
+/* Carte.css */
+.card-container {
+    width: 250px;
+    height: 400px;
+    background: rgba(42, 68, 102, 0.80);
+    box-shadow: 4px 4px 10px 6px rgba(0, 0, 0, 0.30);
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 40px;
+    overflow: hidden;
+  }
+.card-container:hover{
+  transform: scale(1.1);
+}
+  .card-container .image {
+    width: 88%;
+    height: 70%;
+    object-fit: cover;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 10px;
+    
+  }
+  
+.card-content {
+    text-align: center;
+    color: white; 
+    color: white;
+     
+  }
+  
+  /* Style for the name and surname */
+  .name {
+   font-size: 18px;
+   font-family: Montserrat sans-serif;
+   font-weight: semibold;
+   word-wrap: break-word
+  }
+  
+  /* Style for the role */
+  .role {
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 12px;
+    font-family: Montserrat sans-serif;
+    font-weight: 10px;
+    word-wrap: break-word
+  }
+  .social-icon {
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%; 
+    transition: transform 0.3s ease-in-out;
+  }
+  .social-icon:hover {
+    transform: scale(1.7);
+  }
+
+  .details-container{
+    display: flex;
+    gap: 5px; 
+    justify-content: center;
+    align-items: center;
+    margin-top:7px;
+  }

@@ -1,0 +1,14 @@
+/* UserList.css */
+.list-container {
+    justify-content: space-between;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    gap:25px;
+  
+  }
+ 
